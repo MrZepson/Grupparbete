@@ -131,9 +131,8 @@ nav ul li a:hover {
 }
 
 .about-us-image-container img {
-    height: 80%;
+    height: 80%; 
 }
-
 .about-us-text-container {
     width: 50%;
     height: 100%;
@@ -222,6 +221,7 @@ nav ul li a:hover {
 }
 /* End cards */
 
+
 /* Contact US page*/
 .main-container-contact {
     position: relative;
@@ -231,45 +231,48 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     padding: 100px 100px;
-}
+  }
 /*backgroundsbild*/
-.main-container-contact {
-    background: url(../media/img/contact-background-image.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .main-container-contact {
+background: url(../media/img/contact-background-image.jpg) ;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
+ /*End backgroundsbild*/
 
-.contact-box {
+  .contact-box {
     max-width: 850px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #e7e6e1;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-}
-
-.contact-box-left img {
+  }
+    .contact-box-right {
+    padding: 25px 40px;
     width: 50%;
-
+    
+  }
+  .contact-box-left img {
+    width: 425px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 0%;
-}
-.contact-box-right {
-    padding: 25px 40px;
-}
+  }
 
-.contact-box-right h2 {
+  
+  .contact-box-right h2 {
     position: relative;
     padding-bottom: 10px;
     margin-bottom: 10px;
-}
-
-.contact-box-right h2:after {
+  }
+  
+  .contact-box-right h2:after {
     content: "";
     position: absolute;
     left: 50%;
@@ -279,9 +282,9 @@ nav ul li a:hover {
     width: 50px;
     border-radius: 2px;
     background-color: #e7e6e1;
-}
-
-.field {
+  }
+  
+  .field {
     width: 100%;
     padding: 0.5rem 1rem;
     outline: none;
@@ -290,25 +293,25 @@ nav ul li a:hover {
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: 1s;
-}
-
-.field:hover {
+  }
+  
+  .field:hover {
     background-color: rgba(0, 0, 0, 0.1);
-}
-
-.field:focus {
+  }
+  
+  .field:focus {
     background-color: #fff;
     border: 2px solid black;
-}
-
-.field-area {
+  }
+  
+  .field-area {
     min-height: 150px;
     width: 100%;
     word-break: break-word;
     resize: none;
-}
-
-.btn {
+  }
+  
+  .btn {
     width: 100%;
     padding: 0.5rem 1rem;
     background-color: #2a2a2a;
@@ -316,12 +319,12 @@ nav ul li a:hover {
     cursor: pointer;
     outline: none;
     border: none;
-}
-
-.btn:hover {
+  }
+  
+  .btn:hover {
     background-color: #fff;
     color: #2a2a2a;
-}
+  }
 /*End contact Us page*  
 
 /* google maps*/
