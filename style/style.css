@@ -90,6 +90,7 @@ nav ul li a:hover {
 .main-container h1,
 .main-container p {
     color: white;
+    text-shadow: 0px 0px 10px black;
     z-index: 3;
 }
 
@@ -154,126 +155,6 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
 }
-
-<<<<<<< HEAD
-/* google maps*/
-.map-wraper {
-    max-height: 250px;
-    border: 20px solid white;
-  }
-  /*End google maps*/
-
-/* footer*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footer {
-    background-color: white;
-    padding: 70px 0;
-  }
-  
-  .footer-container {
-    max-width: 1170px;
-    margin: auto;
-  }
-  
-  .footer ul a {
-    list-style: none;
-  }
-  
-  .footer-colume {
-    width: 25%;
-    padding: 0 15px;
-    text-align: center;
-  }
-  
-  .footer h4,
-  .footer p,
-  .footer a {
-    color: white;
-    list-style: none;
-  }
-  
-  .footer-colume .btn {
-    background-color: #e7e6e1;
-    border-radius: 5px;
-  }
-  .footer-colume .btn:hover {
-    background-color: #f2a154;
-  }
-  
-  .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: #f2a154;
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-  }
-  
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footer {
-    background-color: whitesmoke;
-    padding: 70px 0;
-  }
-  
-  .footer-container {
-    max-width: 1170px;
-    margin: auto;
-  }
-  
-  .footer ul a {
-    list-style: none;
-  }
-  
-  .footer-colume {
-    width: 25%;
-    padding: 0 15px;
-    text-align: center;
-  }
-  
-  .footer h4,
-  .footer p,
-  .footer a {
-    color: black;
-    list-style: none;
-  }
-  
-  .footer-colume .btn {
-    background-color: #e7e6e1;
-    border-radius: 5px;
-  }
-  .footer-colume .btn:hover {
-    background-color: #2a2a2a;
-  }
-  
-  .social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: #2a2a2a;
-    color: white;
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-  }
-  
-  .social-links a:hover {
-    color: #2a2a2a;
-    background-color: #e7e6e1;
-    transition: 0.7s;
-  }
-  
-/*End footer*/
-=======
 .about-us-text-wrapper {
     height: 50%;
     width: 70%;
@@ -291,4 +172,120 @@ nav ul li a:hover {
 }
 
 /* End about us */
->>>>>>> 93e93a67b0908f59a4ae0a572f345b80fd4090fd
+
+/* google maps*/
+.map-wraper {
+    max-height: 250px;
+    border: 20px solid white;
+}
+/*End google maps*/
+
+/* footer*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: white;
+    padding: 70px 0;
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer ul a {
+    list-style: none;
+}
+
+.footer-colume {
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.footer h4,
+.footer p,
+.footer a {
+    color: white;
+    list-style: none;
+}
+
+.footer-colume .btn {
+    background-color: #e7e6e1;
+    border-radius: 5px;
+}
+.footer-colume .btn:hover {
+    background-color: #f2a154;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #f2a154;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: whitesmoke;
+    padding: 70px 0;
+}
+
+.footer-container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer ul a {
+    list-style: none;
+}
+
+.footer-colume {
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.footer h4,
+.footer p,
+.footer a {
+    color: black;
+    list-style: none;
+}
+
+.footer-colume .btn {
+    background-color: #e7e6e1;
+    border-radius: 5px;
+}
+.footer-colume .btn:hover {
+    background-color: #2a2a2a;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #2a2a2a;
+    color: white;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.social-links a:hover {
+    color: #2a2a2a;
+    background-color: #e7e6e1;
+    transition: 0.7s;
+}
+
+/*End footer*/
