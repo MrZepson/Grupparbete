@@ -199,6 +199,99 @@ nav ul li a:hover {
 }
 /* End cards */
 
+
+/* Contact US page*/
+.main-container-contact {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px;
+  
+    background: #fff;
+  }
+  
+  .contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e7e6e1;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+  }
+  
+  .contact-box-left {
+    height: 100%;
+    background: url(../media/img/contact-image.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .contact-box-right {
+    padding: 25px 40px;
+  }
+  
+  .contact-box-right h2 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-box-right h2:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #e7e6e1;
+  }
+  
+  .field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba((230), 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 1s;
+  }
+  
+  .field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .field:focus {
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+  }
+  
+  .field-area {
+    min-height: 150px;
+    width: 100%;
+    word-break: break-word;
+    resize: none;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #314e52;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #f2a154;
+  }
+/*End contact Us page*  
+
 /* google maps*/
 .map-wraper {
     max-height: 250px;
