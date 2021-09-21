@@ -222,6 +222,8 @@ nav ul li a:hover {
 }
 .footer-colume .btn:hover {
     background-color: #e7e6e1;
+    color: #2a2a2a;
+    transition: 0.7s;
 }
 
 .social-links a {
