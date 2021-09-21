@@ -134,7 +134,6 @@ nav ul li a:hover {
 .about-us-image-container img {
     height: 80%;
 }
-
 .about-us-text-container {
     width: 50%;
     height: 100%;
@@ -298,27 +297,28 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*End backgroundsbild*/
 
 .contact-box {
     max-width: 850px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #e7e6e1;
     box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
-
-.contact-box-left img {
+.contact-box-right {
+    padding: 25px 40px;
     width: 50%;
-
+}
+.contact-box-left img {
+    width: 425px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 0%;
-}
-.contact-box-right {
-    padding: 25px 40px;
 }
 
 .contact-box-right h2 {
