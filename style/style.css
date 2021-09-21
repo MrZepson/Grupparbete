@@ -207,55 +207,7 @@ nav ul li a:hover {
 /*End google maps*/
 
 /* footer*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.footer {
-    background-color: white;
-    padding: 70px 0;
-}
 
-.footer-container {
-    max-width: 1170px;
-    margin: auto;
-}
-
-.footer ul a {
-    list-style: none;
-}
-
-.footer-colume {
-    width: 25%;
-    padding: 0 15px;
-    text-align: center;
-}
-
-.footer h4,
-.footer p,
-.footer a {
-    color: white;
-    list-style: none;
-}
-
-.footer-colume .btn {
-    background-color: #e7e6e1;
-    border-radius: 5px;
-}
-.footer-colume .btn:hover {
-    background-color: #f2a154;
-}
-
-.social-links a {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: #f2a154;
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-}
 
 .row {
     display: flex;
@@ -263,7 +215,7 @@ nav ul li a:hover {
 }
 .footer {
     background-color: whitesmoke;
-    padding: 70px 0;
+    padding: 70px 5px;
 }
 
 .footer-container {
@@ -277,7 +229,7 @@ nav ul li a:hover {
 
 .footer-colume {
     width: 25%;
-    padding: 0 15px;
+    padding: 10px 15px;
     text-align: center;
 }
 
@@ -289,11 +241,15 @@ nav ul li a:hover {
 }
 
 .footer-colume .btn {
-    background-color: #e7e6e1;
+    background-color: #2a2a2a;
+    color: #e7e6e1;
+    padding: 5px 40px;
     border-radius: 5px;
 }
 .footer-colume .btn:hover {
-    background-color: #2a2a2a;
+    background-color: #e7e6e1;
+    color: #2a2a2a;
+    transition: 0.7s;
 }
 
 .social-links a {
@@ -312,6 +268,6 @@ nav ul li a:hover {
     color: #2a2a2a;
     background-color: #e7e6e1;
     transition: 0.7s;
-}
-
+  }
+  
 /*End footer*/
