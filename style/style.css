@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap"); /* font-family: 'Cinzel', serif; */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); /* font-family: 'Dancing Script', cursive; */
+
 * {
     margin: 0;
     padding: 0;
@@ -279,6 +280,34 @@ nav ul li a:hover {
 }
 /* End parallax 2 */
 
+/* GAllery*/
+.gallery-container{
+    display: ;
+    align-content: center;
+    height: 70vh;
+}
+.carousel {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 25%;
+    height: 300px;
+    margin-right: 1px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+
+  .carousel-cell img {
+      display: block;
+      align-content: center;
+      object-fit: fill;
+      width: 100%;
+      z-index: 999;
+  }
+  
+/* End GAllery*/
+
 /* Contact US page*/
 .main-container-contact {
     position: relative;
@@ -296,6 +325,7 @@ nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 /*End backgroundsbild*/
 
