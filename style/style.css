@@ -265,6 +265,7 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .card-button-container {
