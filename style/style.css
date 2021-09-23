@@ -537,7 +537,7 @@ nav ul li a:hover {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .footer {
     background-color: whitesmoke;
