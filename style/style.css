@@ -380,7 +380,7 @@ nav ul li a:hover {
 }
 
 .menu-border {
-    border: 2px solid rgb(165, 163, 29);
+    border: 2px solid rgb(189, 160, 31);
     border-radius: 20px;
     height: 95%;
     width: 88%;
@@ -537,7 +537,7 @@ nav ul li a:hover {
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 .footer {
     background-color: whitesmoke;
