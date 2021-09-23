@@ -324,31 +324,37 @@ nav ul li a:hover {
 /* End parallax 2 */
 
 /* GAllery*/
-.gallery-container{
+.gallery-container {
     align-content: center;
     height: 70vh;
 }
 .carousel {
-    background: #EEE;
-  }
-  
-  .carousel-cell {
+    background: #eee;
+}
+
+.carousel-cell {
     width: 25%;
     height: 300px;
     margin-right: 1px;
     border-radius: 5px;
     counter-increment: carousel-cell;
-  }
+}
 
-  .carousel-cell img {
-      display: block;
-      align-content: center;
-      object-fit: fill;
-      width: 100%;
-      z-index: 999;
-  }
-  
+.carousel-cell img {
+    display: block;
+    align-content: center;
+    object-fit: fill;
+    width: 100%;
+    z-index: 999;
+}
+
 /* End GAllery*/
+
+/* Menu page */
+.menu-container {
+    min-height: 100vh;
+}
+/* End menu page */
 
 /* Contact US page*/
 .main-container-contact {
