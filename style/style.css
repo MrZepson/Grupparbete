@@ -344,7 +344,7 @@ nav ul li a:hover {
 .carousel-cell img {
     display: block;
     align-content: center;
-    object-fit: fill;
+    object-fit: cover;
     width: 100%;
     z-index: 999;
 }
