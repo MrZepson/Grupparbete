@@ -64,6 +64,17 @@ nav ul li a {
 nav ul li a:hover {
     transform: scale(1.2, 1.2);
 }
+
+/* Scrolling-style */
+.scrolling-active {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 5px rgb(104, 104, 104);
+    transition: 0.5s;
+}
+
+.scrolling-active:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
 /* end navigeringsbar */
 
 /* indroduction */
