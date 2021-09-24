@@ -673,4 +673,13 @@ nav ul li a:hover {
         transform: none;
         word-break: normal;
     }
+    .row{
+        flex-direction: column;
+        align-content: center;
+      
+    }
+    .footer-colume{
+          padding-bottom: 50px;
+       
+    }
 }
