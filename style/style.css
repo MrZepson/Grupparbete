@@ -525,7 +525,9 @@ nav ul li a:hover {
     word-break: break-word;
     resize: none;
 }
-
+.field {
+    font-family: Cinzel;
+}
 .btn {
     width: 100%;
     padding: 0.5rem 1rem;
@@ -613,3 +615,42 @@ nav ul li a:hover {
 }
 
 /*End footer*/
+
+@media screen and (max-width: 880px){
+    *{font-size: 24px;}
+    .main-container h1 {
+        font-size:50px ;
+    }
+    .main-container p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about-us-wrapper {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-us-container{
+        height: 100%;
+    }
+    .about-us-image-container{
+        display: none;
+    }
+
+    .card-container{
+        height: 100%;
+        flex-direction: column;
+         
+    }
+    .card{
+        width: 75%;
+      padding: 15px;
+       margin: 15px;
+    }
+    .card-text{
+        padding-bottom: 10px;
+    }
+    .main-menu-container{
+        background-image: none;
+    }
+}
