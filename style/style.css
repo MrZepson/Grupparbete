@@ -65,6 +65,18 @@ nav ul li a:hover {
     transform: scale(1.2, 1.2);
 }
 
+.burger {
+    display: none;
+}
+
+.burger div {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
 /* Scrolling-style */
 .scrolling-active {
     background-color: rgba(255, 255, 255, 0.6);
@@ -627,12 +639,37 @@ nav ul li a:hover {
 
 /*End footer*/
 
-@media screen and (max-width: 880px){
-    *{font-size: 20px;}
-    .main-container h1 {
-        font-size:50px ;
+/* Mediaqueries */
+@media screen and (max-width: 800px) {
+    .burger {
+        display: block;
     }
-    .main-container p{
+    nav {
+        position: absolute;
+        top: 78.32px;
+        right: 0;
+        height: 100vh;
+        width: 50%;
+        background-color: white;
+        transform: translateX(100%);
+    }
+    nav ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    * {
+        font-size: 24px;
+    }
+    .main-container h1 {
+        font-size: 50px;
+    }
+    .main-container p {
         font-size: 20px;
         text-align: center;
     }
@@ -641,54 +678,54 @@ nav ul li a:hover {
         flex-direction: column;
         text-align: center;
     }
-    .about-us-container{
+    .about-us-container {
         height: 100%;
     }
-    .about-us-image-container{
+    .about-us-image-container {
         display: none;
     }
 
-    .card-container{
+    .card-container {
         height: 100%;
         flex-direction: column;
-         
     }
-    .card{
+    .card {
         height: 500px;
         width: 75%;
-      padding: 15px;
-       margin: 15px;
+        padding: 15px;
+        margin: 15px;
     }
-    .card-text{
+    .card-text {
         padding-bottom: 10px;
     }
-    .main-menu-container{
+    .main-menu-container {
         background-image: none;
     }
     .contact-box {
         height: 100%;
-        
     }
-    .field h2{
+    .field h2 {
         font-size: 10px;
         transform: none;
         word-break: normal;
     }
-    .row{
+    .row {
         flex-direction: column;
         align-content: left;
         align-items: left;
+<<<<<<< HEAD
         padding: 5px;
       
+=======
+>>>>>>> 14d729d37c1b068842cc6a72411ca7ca70336308
     }
-    .footer-colume{
-          padding-bottom: 50px;
-       
+    .footer-colume {
+        padding-bottom: 50px;
     }
-    .footer-colume p{
+    .footer-colume p {
         font-size: 15px;
     }
-    .btn{
+    .btn {
         font-size: 14px;
         text-align: left;
         padding: 5px 5px;
