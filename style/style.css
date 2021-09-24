@@ -528,7 +528,7 @@ nav ul li a:hover {
     outline: none;
     border: 2px solid rgba(0, 0, 0, 0);
     background-color: rgba((230), 230, 230, 0.6);
-    font-size: 1.1rem;
+    font-size: 20px;
     margin-bottom: 22px;
     transition: 1s;
 }
@@ -690,6 +690,7 @@ nav ul li a:hover {
         flex-direction: column;
     }
     .card {
+        height: 500px;
         width: 75%;
         padding: 15px;
         margin: 15px;
@@ -699,5 +700,29 @@ nav ul li a:hover {
     }
     .main-menu-container {
         background-image: none;
+    }
+    .contact-box {
+        height: 100%;
+    }
+    .field h2 {
+        font-size: 10px;
+        transform: none;
+        word-break: normal;
+    }
+    .row {
+        flex-direction: column;
+        align-content: left;
+        align-items: left;
+    }
+    .footer-colume {
+        padding-bottom: 50px;
+    }
+    .footer-colume p {
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 14px;
+        text-align: left;
+        padding: 5px 5px;
     }
 }
