@@ -705,6 +705,11 @@ nav ul li a:hover {
     .contact-box {
         height: 100%;
     }
+    .contact-box-right{
+        padding: 0;
+    }
+  
+   
     .field h2 {
         font-size: 10px;
         transform: none;
@@ -714,6 +719,8 @@ nav ul li a:hover {
         flex-direction: column;
         align-content: left;
         align-items: left;
+        padding: 5px;
+      
     }
     .footer-colume {
         padding-bottom: 50px;
