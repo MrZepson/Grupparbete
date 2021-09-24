@@ -685,6 +685,11 @@ nav ul li a:hover {
     .about-us-image-container {
         display: none;
     }
+    .about-us-text-container {
+        width: 75%;
+        padding: 40px;
+        font-size: 40px;
+    }
 
     .card-container {
         height: 100%;
@@ -704,9 +709,21 @@ nav ul li a:hover {
     }
     .contact-box {
         height: 100%;
+        overflow: scroll;
     }
     .contact-box-right {
         padding: 0;
+        height: 70%;
+        width: 90%;
+    }
+    .contact-box-right .btn {
+        height: 70px;
+        text-align: center;
+        font-size: 25px;
+        font-family: "cinzel";
+    }
+    .contact-box-left {
+        display: none;
     }
 
     .field h2 {
@@ -716,19 +733,20 @@ nav ul li a:hover {
     }
     .row {
         flex-direction: column;
-        align-content: left;
+        align-content: center;
         align-items: left;
         padding: 5px;
     }
     .footer-colume {
         padding-bottom: 50px;
+        width: 50%;
     }
     .footer-colume p {
-        font-size: 15px;
+        font-size: 25px;
     }
     .btn {
         font-size: 14px;
-        text-align: left;
+        text-align: center;
         padding: 5px 5px;
     }
 }
