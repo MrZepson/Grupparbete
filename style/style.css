@@ -628,7 +628,7 @@ nav ul li a:hover {
 /*End footer*/
 
 @media screen and (max-width: 880px){
-    *{font-size: 24px;}
+    *{font-size: 20px;}
     .main-container h1 {
         font-size:50px ;
     }
@@ -654,6 +654,7 @@ nav ul li a:hover {
          
     }
     .card{
+        height: 500px;
         width: 75%;
       padding: 15px;
        margin: 15px;
@@ -675,11 +676,20 @@ nav ul li a:hover {
     }
     .row{
         flex-direction: column;
-        align-content: center;
+        align-content: left;
+        align-items: left;
       
     }
     .footer-colume{
           padding-bottom: 50px;
        
+    }
+    .footer-colume p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 14px;
+        text-align: left;
+        padding: 5px 5px;
     }
 }
