@@ -678,6 +678,7 @@ nav ul li a:hover {
         flex-direction: column;
         align-content: left;
         align-items: left;
+        padding: 5px;
       
     }
     .footer-colume{
