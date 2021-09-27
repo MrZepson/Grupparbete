@@ -357,6 +357,13 @@ nav ul li a:hover {
     font-size: 20px;
 }
 
+.overflow {
+    overflow: scroll;
+}
+.overflow::-webkit-scrollbar {
+    display: none;
+}
+
 /* End cards */
 
 /* Parallax 2 */
