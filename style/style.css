@@ -179,7 +179,7 @@ nav ul li a:hover {
 }
 
 .about-us-image-container img {
-    width: 200px;
+    width: 80%;
     animation-name: slide-in;
     position: relative;
     animation-duration: 3s;
@@ -191,7 +191,7 @@ nav ul li a:hover {
         top: 0%;
     }
     100% {
-        left: 15%;
+        left: 0%;
         top: 0%;
     }
 }
