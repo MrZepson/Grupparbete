@@ -86,6 +86,10 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.burger.contact > div {
+    background-color: white;
+}
+
 /* Scrolling-style */
 .scrolling-active {
     background-color: rgba(255, 255, 255, 0.6);
