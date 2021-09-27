@@ -183,6 +183,7 @@ nav ul li a:hover {
     animation-name: slide-in;
     position: relative;
     animation-duration: 3s;
+    animation-delay: 1s;
 }
 
 @keyframes slide-in {
