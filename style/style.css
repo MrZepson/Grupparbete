@@ -508,7 +508,7 @@ nav ul li a:hover {
 .contact-box {
     max-width: 850px;
     display: flex;
-    flex-flow: row wrap;
+
     justify-content: center;
     align-items: center;
     text-align: center;
