@@ -10,11 +10,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-        <!-- flickity.metafizzy.co CSS -->
-        <link
-            rel="stylesheet"
-            href="https://unpkg.com/flickity@2/dist/flickity.min.css"
-        />
+       
         <title>Italiensk Restaurang</title>
     </head>
     <body>
@@ -141,30 +137,66 @@
                 <h1>Gallery</h1>
             </div>
             <div class="carousel-container">
-                <div class="carousel" data-flickity='{ "groupCells": true }'>
-                    <div class="carousel-cell">
-                        <img src="" alt="" />
-                    </div>
-                    <div class="carousel-cell" id="one">
-                        <img src="" alt="" />
-                    </div>
-                    <div class="carousel-cell" id="two">
-                        <img src="" alt="" />
-                    </div>
-                    <div class="carousel-cell" id="three">
-                        <img src="" alt="" />
-                    </div>
-                    <div class="carousel-cell" id="foure">
-                        <img src="" alt="" />
-                    </div>
-                    <div class="carousel-cell" id="five">
-                        <img src="" alt="" />
-                    </div>
-                </div>
             </div>
-
-            <!-- flickity.metafizzy.co JavaScript -->
-            <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+            <div class="container">
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="media/gallery/1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="media/gallery/2.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="media/gallery/3.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="media/gallery/4.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="media/gallery/5.jpg" style="width:100%">
+                </div>
+                  
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="media/gallery/6.jpg" style="width:100%">
+                </div>
+                  
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+              
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(1)" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(2)" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(3)" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(4)" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(5)" alt="">
+                  </div>    
+                  <div class="column">
+                    <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(6)" alt="">
+                  </div>
+                </div>
+              </div>
         </section>
         <!--End Gallery -->
         <!-- Google maps-->
