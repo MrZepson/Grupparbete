@@ -380,7 +380,7 @@ nav ul li a:hover {
 /* Gallery*/
 .gallery-container {
     align-content: center;
-    height: 60vh;
+    height: 500px;
 }
 
 .gallery-text {
@@ -395,28 +395,41 @@ nav ul li a:hover {
 }
 
 .carousel-container {
-    height: 50%;
+    height: 200px;
 }
 
 .carousel {
-    background: #eee;
-}
-
-.carousel-cell {
-    width: 25%;
-    height: 300px;
-    margin-right: 1px;
-    border-radius: 5px;
-    counter-increment: carousel-cell;
-}
-
-.carousel-cell img {
+    background: #EEE;
+  }
+  
+  .carousel-cell {
+    width: 20%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  .carousel-cell.is-selected {
+    background: #ED2;
+  }
+ 
+   
+  }
+  /* cell number */
+  .carousel-cell:before {
     display: block;
-    align-content: center;
-    object-fit: cover;
-    width: 100%;
-    z-index: 999;
-}
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
+#one {
+    background-image: url(../media/gallery/1.jpg);
+    height: 100%;
+    width: 30px;
 
 /* End GAllery*/
 
