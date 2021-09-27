@@ -393,13 +393,12 @@ nav ul li a:hover {
 /* End parallax 2 */
 
 /* Gallery*/
-.gallery-container {
+.gallery-wrapper {
     align-content: center;
-    height: 50vh;
 }
 
 .gallery-text {
-    height: 40%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -407,14 +406,15 @@ nav ul li a:hover {
 
 .gallery-text h1 {
     font-size: 50px;
+    padding: 50px;
 }
 
-img {
+.mySlides img {
     vertical-align: middle;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.gallery-img-container {
     position: relative;
 }
 
