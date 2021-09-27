@@ -28,6 +28,10 @@ window.addEventListener("load", function () {
 })
 
 
+/* about us image slider*/
+
+
+
 /* gallery*/
 
 var slideIndex = 1;
