@@ -49,14 +49,16 @@
                 </div>
                 <div class="contact-box-right">
                     <h2>Contact Us</h2>
-                    <input type="text" class="field" placeholder="Name" />
-                    <input type="email" class="field" placeholder="Email" />
+                    <form onsubmit="sendFormInfo()">
+                    <input id="something" type="text" class="field" placeholder="Name" />
+                    <input type="email" class="field" placeholder="Email" required />
                     <input type="text" class="field" placeholder="Phone" />
                     <textarea
                         class="field-area"
                         placeholder="Message"
                     ></textarea>
                     <button class="btn">Send</button>
+                </form>
                 </div>
             </div>
         </div>
