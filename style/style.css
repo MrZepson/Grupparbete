@@ -348,7 +348,10 @@ nav ul li a:hover {
     width: 85%;
     height: 45px;
 }
-
+.card-button-container a::after {
+    width: 85%;
+    height: 45px;
+}
 .card-button-container button {
     background-color: rgb(231, 230, 225);
     color: black;
