@@ -179,11 +179,10 @@ nav ul li a:hover {
 }
 
 .about-us-image-container img {
-    height: 80%;
+    width: 80%;
     animation-name: slide-in;
     position: relative;
     animation-duration: 3s;
-    animation-delay: 1s;
 }
 
 @keyframes slide-in {
@@ -412,6 +411,9 @@ nav ul li a:hover {
 
 .mySlides img {
     vertical-align: middle;
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 500px;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
