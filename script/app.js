@@ -5,9 +5,13 @@ const links = document.querySelectorAll(".nav-link");
 let navOpen = false;
 
 // Making the Nav-Bar transparent on scroll
-window.addEventListener("scroll", function () {
-    let windowPosition = window.scrollY > 0;
-    header.classList.toggle("scrolling-active", windowPosition);
+document.addEventListener("scroll", function () {
+    let windowPosition = window.scrollY;
+    if (windowPosition >= 1) {
+        header.classList.add("scrolling-active");
+    } else if (windowPosition <= 0) {
+        header.classList.remove("scrolling-active");
+    }
 })
 
 // Responsive Nav-Bar things
@@ -29,7 +33,16 @@ window.addEventListener("load", function () {
 
 
 // About us image slide-in
+const animatedImage = document.getElementById("about-us-image");
+const target = document.getElementById("about-us");
 
+window.addEventListener("load", function () {
+    document.addEventListener("scroll", function () {
+        if (window.scrollY >= target.getBoundingClientRect().top) {
+            animatedImage.classList.add("about-us-image-animation");
+        }
+    })
+})
 
 // Gallery
 var slideIndex = 1;

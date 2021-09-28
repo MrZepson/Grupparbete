@@ -179,20 +179,27 @@ nav ul li a:hover {
 }
 
 .about-us-image-container img {
-    width: 80%;
-    animation-name: slide-in;
+    height: 80%;
+    left: -150%;
     position: relative;
-    animation-duration: 3s;
+}
+
+.about-us-image-animation {
+    animation-name: slide-in;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes slide-in {
     0% {
-        left: -500%;
+        left: -150%;
         top: 0%;
+        opacity: 0;
     }
     100% {
         left: 0%;
         top: 0%;
+        opacity: 1;
     }
 }
 
