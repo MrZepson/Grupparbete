@@ -356,7 +356,9 @@ nav ul li a:hover {
     font-size: 20px;
     cursor: pointer;
 }
-
+.card-button-container button:hover {
+    box-shadow: 0px 0px 10px #fff;
+}
 .card3 .card-border {
     display: flex;
     justify-content: space-between;
