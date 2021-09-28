@@ -84,6 +84,19 @@ nav ul li a:hover {
     height: 3px;
     margin: 5px;
     border-radius: 5px;
+    transition: 0.5s;
+}
+
+.burger.burger-animation div:nth-child(1) {
+    transform: rotate(-45deg) translateY(11px);
+}
+
+.burger.burger-animation div:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.burger-animation div:nth-child(3) {
+    transform: rotate(45deg) translateY(-10.5px);
 }
 
 .burger.contact > div {

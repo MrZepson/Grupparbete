@@ -1,12 +1,9 @@
-const header = document.querySelector("header");
-const burger = document.querySelector(".burger");
-const navMenu = document.querySelector(".nav");
-const links = document.querySelectorAll(".nav-link");
-let navOpen = false;
-
 // Making the Nav-Bar transparent on scroll
+const header = document.querySelector("header");
+
 document.addEventListener("scroll", function () {
     let windowPosition = window.scrollY;
+
     if (windowPosition >= 1) {
         header.classList.add("scrolling-active");
     } else if (windowPosition <= 0) {
@@ -15,12 +12,18 @@ document.addEventListener("scroll", function () {
 })
 
 // Responsive Nav-Bar things
+const burger = document.querySelector(".burger");
+const navMenu = document.querySelector(".nav");
+let navOpen = false;
+
 const toggleMenu = () => {
     if (!navOpen) {
         navMenu.style.right = "0";
+        burger.classList.add("burger-animation");
         navOpen = true;
     } else {
         navMenu.style.right = "-100%";
+        burger.classList.remove("burger-animation");
         navOpen = false;
     }
 }
@@ -30,7 +33,6 @@ window.addEventListener("load", function () {
         toggleMenu();
     })
 })
-
 
 // About us image slide-in
 const animatedImage = document.getElementById("about-us-image");
