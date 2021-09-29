@@ -134,7 +134,7 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/media/img/header.jpg);
+    background-image: url(/media/img/headerComp-min.jpg);
     background-size: cover;
 }
 
@@ -258,7 +258,7 @@ nav ul li a:hover {
 /* Parallax 1 */
 .parallax1-container {
     height: 40vh;
-    background-image: url(/media/img/parallax1.jpg);
+    background-image: url(/media/img/parallax1-min.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -414,7 +414,7 @@ nav ul li a:hover {
 /* Parallax 2 */
 .parallax2-container {
     height: 50vh;
-    background-image: url(/media/img/parallax2.jpg);
+    background-image: url(/media/img/parallax2-min.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -505,7 +505,7 @@ nav ul li a:hover {
 
 /* Menu page */
 .main-menu-container {
-    background-image: url(../media/img/menu-background-image.jpg);
+    background-image: url(../media/img/menu-background-image-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
